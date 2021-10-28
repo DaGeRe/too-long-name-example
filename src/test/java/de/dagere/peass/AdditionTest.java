@@ -6,7 +6,7 @@ import org.junit.Test;
 public class AdditionTest {
    @Test
    public void testApp() {
-      int sum = AdditionClass.addRandomNumbers(1000);
+      int sum = AdditionClass.addRandomNumbers(2000);
       Assert.assertNotNull(sum);
    }
 }
